@@ -1,0 +1,9 @@
+﻿1. ติดตั้ง module ฝั่ง Server API โดยการ เข้าไปที่โฟล์เดอร์ server >> npm install
+2. ติดตั้ง module ฝั่ง Web โดยการ เข้าไปที่โฟล์เดอร์ client >> npm install
+3. ฝั่ง Server จะทำงานด้วย Port 8888 ด้วย Command: node index.js
+	3.1 วิธีการทดสอบ API แบบไม่มีเงื่อนไขเบื้องต้นเข้าดูได้ที่ http://localhost:8888/user
+	3.2 วิธีการทดสอบ API แบบมีเงื่อนไขเบื้องต้นเข้าดูได้ที่ http://localhost:8888/user/id/1/null
+4. ฝั่ง Client จะทำงานด้วย Auto IP ด้วย Command: npm run serve
+	4.1 การทำงานของ Web จะค้นหาด้วยคีย์เวิร์ด keyup keyboard
+	4.2 หากใน "รายละเอียด" ไม่มีคีย์เวิร์ด จะทำคำสั่งให้เป็น ค้นหาทั้งหมด
+5. API Document สามารถดูได้ที่โฟลด์เดอร์ ApiDocument/doc/index.html
